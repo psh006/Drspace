@@ -1,0 +1,619 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+input {
+	border: none;
+	background: none;
+	outline: none;
+	/* 取消选中时蓝色选框 */
+}
+
+/* 清除浮动 */
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* 头部导航栏 */
+.nav ul li:nth-of-type(1) a {
+	color: #333;
+}
+
+.nav ul li:nth-of-type(4) a {
+	color: #9b745c;
+}
+
+
+/* -------------------------------------------- */
+.content {
+	width: 1360px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* 第一张大图 */
+.cot_banner {
+	width: 1360px;
+	height: 620px;
+	background-image: url(../img/true_love_gift_img/jnr_banner.jpg);
+}
+
+/* 第二部分 */
+.cot_sec {}
+
+/* ul */
+.cSec_one {
+	padding: 60px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.cSec_one>li {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 158px;
+	overflow: hidden;
+	margin: 0 28px;
+}
+
+.aHref {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.cSec_one>li:hover img {
+	transform: scale(1.1);
+}
+
+.cSec_one>li img {
+	transition: .5s;
+}
+
+.cSec_one>li p {
+	font-size: 14px;
+	color: #8b766c;
+	margin-top: 8px;
+}
+
+/* 导航栏 */
+.cSec_search {
+	position: relative;
+	color: #666666;
+	font-size: 14px;
+}
+
+.cSec_search>a {
+	position: absolute;
+	right: 0;
+	top: 4px;
+	z-index: 3;
+}
+
+.cSec_search>a:hover {
+	color: #9B745C;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
+/* -----------------主体导航栏---------------------- */
+.cot_nav {
+	/* list-style: none; */
+	position: relative;
+	height: 34px;
+	margin-bottom: 10px;
+}
+
+.cot_nav>li {
+	float: left;
+	margin: 0 3px 0 15px;
+	height: 100%;
+}
+
+.cot_nav>li:hover {
+	color: #DBC7BA;
+	cursor: pointer;
+}
+
+.cot_nav_same {
+	position: absolute;
+	background-color: white;
+	top: 34px;
+	right: 0;
+	width: 1348px;
+	min-height: 215px;
+	font-size: 0;
+	color: #666;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	background: #fff;
+	padding-left: 12px;
+	padding-top: 36px;
+	display: none;
+	z-index: 1;
+}
+
+.cot_nav_same a {
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	display: inline-block;
+	cursor: pointer;
+	color: #666;
+}
+
+.cot_nav_same a:hover {
+	color: #9b745c;
+}
+
+.cot_nav>li:hover .cot_nav_same {
+	display: block;
+}
+
+/* -----------------结婚对戒banner03------------------------ */
+.cBanner03_img {
+	width: 1360px;
+	/* height: 621px; */
+	position: relative;
+}
+
+.cBanner03_img>a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cot_banner03>h3 {
+	height: 66px;
+	line-height: 96px;
+	font-size: 30px;
+	color: #626262;
+}
+
+.cBanner03_list>li {
+	width: 427px;
+	height: 608px;
+	float: left;
+	margin-left: 36px;
+	margin-top: 27px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #d1d1d1;
+}
+
+.cBanner03_list>li:nth-of-type(1),
+.cBanner03_list>li:nth-of-type(4) {
+	margin-left: 0;
+}
+
+.cBanner03_list>li>a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+
+.cBanner03_list>li>img {
+	width: 427px;
+	height: 372px;
+	transition: .5s;
+}
+
+.cBanner03_list>li:hover img {
+	transform: scale(1.1);
+}
+
+/* ----------------------------------- */
+.cBanner03_list_cort {
+	margin: 30px 0 0;
+	text-align: center;
+	/* background-color: #00FFFF; */
+}
+
+.cBanner03_list_cort>p:nth-of-type(1) {
+	color: #8B766C;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 0 20px;
+}
+
+.cBanner03_list_cort>p:nth-of-type(2) {
+	color: #666;
+	font-size: 16px;
+	margin: 0 0 20px;
+}
+
+.cBanner03_list_cort>div:nth-of-type(1) {
+	width: 30px;
+	height: 1px;
+	background-color: #333333;
+	margin: 20px auto;
+}
+
+.cBanner03_list_button {
+	margin: 0 auto;
+	width: 123px;
+	height: 23px;
+	font-size: 0;
+	background-color: rgb(170, 144, 132);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cBanner03_list_button>span {
+	font-size: 12px;
+	display: inline-block;
+	width: 58px;
+	text-align: center;
+}
+
+.cBanner03_list_button>span:hover {
+	color: rgb(139, 118, 108);
+}
+
+.cBanner03_list_button>span:nth-of-type(2) {
+	border-left: 1px solid #fff;
+}
+
+.cBanner03_list>li:hover .cBanner03_list_button {
+	background-color: rgb(139, 118, 108);
+}
+
+/* -----------------男戒banner04------------------------ */
+.cot_banner04 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.cBanner04_img {
+	width: 1360px;
+	/* height: 621px; */
+	position: relative;
+}
+
+.cBanner04_img>a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cot_banner04>h3 {
+	height: 66px;
+	line-height: 96px;
+	font-size: 30px;
+	color: #626262;
+}
+
+.cBanner04_list>li {
+	width: 427px;
+	height: 548px;
+	float: left;
+	margin-left: 36px;
+	margin-top: 27px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #d1d1d1;
+}
+
+.cBanner04_list>li:nth-of-type(1),
+.cBanner04_list>li:nth-of-type(4) {
+	margin-left: 0;
+}
+
+.cBanner04_list>li>a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+
+.cBanner04_list>li>img {
+	width: 427px;
+	height: 352px;
+	transition: .5s;
+}
+
+.cBanner04_list>li:hover img {
+	transform: scale(1.1);
+}
+
+/* ----------------------------------- */
+.cBanner04_list_cort {
+	margin: 20px 0 0;
+	text-align: center;
+	/* background-color: #00FFFF; */
+}
+
+.cBanner04_list_cort>p:nth-of-type(1) {
+	color: #8B766C;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 0 20px;
+}
+
+.cBanner04_list_cort>p:nth-of-type(2) {
+	color: #666;
+	font-size: 16px;
+	margin: 0 0 20px;
+}
+
+.cBanner04_list_cort>div:nth-of-type(1) {
+	width: 30px;
+	height: 1px;
+	background-color: #333333;
+	margin: 20px auto;
+}
+
+.cBanner04_list_button {
+	margin: 0 auto;
+	width: 123px;
+	height: 23px;
+	font-size: 0;
+	background-color: rgb(170, 144, 132);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cBanner04_list_button>span {
+	font-size: 12px;
+	display: inline-block;
+	width: 58px;
+	text-align: center;
+}
+
+.cBanner04_list_button>span:hover {
+	color: rgb(139, 118, 108);
+}
+
+.cBanner04_list_button>span:nth-of-type(2) {
+	border-left: 1px solid #fff;
+}
+
+.cBanner04_list>li:hover .cBanner03_list_button {
+	background-color: rgb(139, 118, 108);
+}
+
+/* ---------banner06爱的周年礼------------ */
+.cot_banner06 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.cBanner06_img {
+	width: 1360px;
+	/* height: 621px; */
+	position: relative;
+}
+
+.cBanner06_img>a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cot_banner06>h3 {
+	height: 66px;
+	line-height: 96px;
+	font-size: 30px;
+	color: #626262;
+}
+
+.cBanner06_list {
+	width: 1360px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cBanner06_list>li {
+	position: relative;
+	width: 408px;
+	height: 1177px;
+	border: 1px solid #8b766c;
+	overflow: hidden;
+	/* transition: .5s; */
+}
+
+
+.cBanner06_list>li>a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* .cBanner06_list>li:hover .cBanner06_list_img{
+	transform: scale(1.1);
+} */
+.cBanner06_list_cort {
+	text-align: center;
+}
+
+.cBanner06_list_cort>img {
+	margin-bottom: 10px;
+}
+
+.cBanner06_list_cort>h3 {
+	font-size: 22px;
+	color: #625149;
+	margin-bottom: 10px;
+}
+
+.cBanner06_list_cort>p:nth-of-type(1) {
+	font-size: 18px;
+	color: #8b766c;
+	margin-bottom: 10px;
+}
+
+.cBanner06_list_cort>p:nth-of-type(2) {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.cBanner06_list_cort>div {
+	width: 40px;
+	height: 1px;
+	margin: 20px auto 30px;
+	border-bottom: 1px solid #8b766c;
+}
+
+.cBanner06_list_cort>a {
+	display: inline-block;
+	width: 128px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #a98f83;
+}
+
+
+
+/* ---------中间部分--------- */
+
+.cBanner06_list>li:nth-of-type(2) {
+	border: none;
+	position: static;
+	width: 497px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.cBn06list_3{
+	position: relative;
+	border: 1px solid #8b766c;
+}
+.cBn06list_3>a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cBn06list_3>img{
+	width: 220px;
+	margin-top: 1px;
+	float: left;
+}
+.cBn06list_3_cort{
+	float: left;
+}
+.cBn06list_3_cort {
+	width: 268px;
+	margin-top: 40px;
+	text-align: center;
+	float: left;
+}
+
+.cBn06list_3_cort>img {
+	margin-bottom: 10px;
+}
+
+.cBn06list_3_cort>h3 {
+	font-size: 22px;
+	color: #625149;
+	margin-bottom: 10px;
+}
+
+.cBn06list_3_cort>p:nth-of-type(1) {
+	font-size: 18px;
+	color: #8b766c;
+	margin-bottom: 10px;
+}
+
+.cBn06list_3_cort>p:nth-of-type(2) {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.cBn06list_3_cort>div {
+	width: 40px;
+	height: 1px;
+	margin: 20px auto 30px;
+	border-bottom: 1px solid #8b766c;
+}
+
+.cBn06list_3_cort>a {
+	display: inline-block;
+	width: 128px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #a98f83;
+}
+
+
+/* -------------- */
+.cot_foot {
+	width: 1360px;
+	height: 540px;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.cot_foot>a {
+	width: 1360px;
+	height: 540px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cot_foot>img {
+	width: 1360px;
+	height: 540px;
+}

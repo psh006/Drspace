@@ -1,0 +1,139 @@
+.right {
+	width: 58px;
+	height: 720px;
+	position: fixed;
+	bottom: 0;
+	right: 30px;
+	z-index: 99;
+	
+}
+
+.right_01 {
+	width: 58px;
+	height: 90px;
+	background-color: #cebeb0;
+	color: white;
+	font-size: 12px;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+}
+
+.right_01:hover {
+	background-color: #8b766c;
+}
+
+.box_left {
+	height: 0;
+	width: 0;
+	border: 4px solid transparent;
+	border-bottom-color: #9a735b;
+	transform: rotate(45deg);
+	margin-top: -4px;
+	margin-left: 2px;
+}
+
+.box_right {
+	height: 0;
+	width: 0;
+	border: 4px solid transparent;
+	border-bottom-color: #9a735b;
+	transform: rotate(-45deg);
+	margin-top: -8px;
+	margin-left: 48px;
+}
+
+.right_02 {
+	width: 50px;
+	height: 600px;
+	background-color: #f4f2f3;
+	color: #8b766c;
+	font-size: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #f4f2f3;
+	margin-left: 4px;
+	margin-top: -4px;
+}
+
+.right_02_01 {
+	width: 100px;
+	height: 60px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	position: relative;
+}
+
+.right_02_01 div:nth-of-type(2) {
+	position: absolute;
+	width: 58px;
+	height: 60px;
+	background-color: white;
+	left: -20px;
+	opacity: 0;
+	transition: .5s ease-out;
+	text-align: center;
+	line-height: 60px;
+}
+
+.right_02_01 .d.f {
+	width: 120px ;
+	height: 200px;
+	margin-left: -100px;
+	display: block;
+
+}
+
+.right_02 .right_02_01:hover .d {
+	opacity: 1;
+	left: -57px;
+}
+
+.right_02 div:hover {
+	background-color: white;
+}
+
+.right_02 span {
+	margin-top: 10px;
+}
+
+.right_02 .right_02_01:nth-of-type(1) {
+	margin-top: 45px;
+}
+
+.right_02 .right_02_01 div:nth-of-type(1) {
+	width: 30px;
+	height: 26px;
+	background-image: url(../img/right_img/icon_servie.png);
+	background-position: 0 -279px;
+	margin-top: 5px;
+}
+.right_02 .right_02_01:nth-of-type(7) div:nth-of-type(1){
+	background-image: url(../img/right_img/totop.jpg);
+	width: 50px;
+	height: 90px;
+	text-align: center;
+	margin-top: -4px;
+}
+
+.right_02 .right_02_01:nth-of-type(2) div {
+	background-position: 0 -357px;
+}
+
+.right_02 .right_02_01:nth-of-type(3) div {
+	background-position: 0 -34px;
+}
+
+.right_02 .right_02_01:nth-of-type(4) div {
+	background-position: 0 -74px;
+}
+
+.right_02 .right_02_01:nth-of-type(5) div {
+	background-position: 0 -120px;
+}
+
+.right_02 .right_02_01:nth-of-type(6) div {
+	background-position: 0 -200px;
+}

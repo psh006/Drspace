@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+input {
+	border: none;
+	background: none;
+	outline: none;
+	/* 取消选中时蓝色选框 */
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+/* 头部导航栏 */
+.nav ul li:nth-of-type(1) a {
+	color: #333;
+}
+
+.nav ul li:nth-of-type(2) a {
+	color: #9b745c;
+}
+
+/* ------------------------------- */
+.content {
+	width: 1360px;
+	height: auto;
+	margin: 0 auto;
+	color: #333333;
+	font-size: 14px;
+}
+
+.content>img:nth-of-type(1) {
+	width: 1360px;
+	height: 540px;
+}
+
+/* ----------------------------------- */
+.cot_bread {
+	width: 1360px;
+	height: 87px;
+	color: #888888;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ----------------- */
+.cBread_l {
+	/* width: 160px; */
+	height: 87px;
+	color: #333;
+	font-size: 13px;
+	line-height: 87px;
+	padding: 0 0 0 10px;
+}
+
+.cBread_l>a {
+	padding: 0 0 0 6px;
+}
+
+.cBread_l>a:hover {
+	color: #9B745C;
+}
+
+/* ----------------- */
+.cBread_r {
+	font-size: 14px;
+	height: 87px;
+	/* background-color: #00FFFF; */
+	display: flex;
+	align-items: center;
+}
+
+.cBread_r_text {
+	width: 235px;
+	height: 30px;
+	float: left;
+	border: 1px solid;
+	font-size: 0;
+	position: relative;
+}
+
+.cBread_r_text>input {
+	width: 192px;
+	height: 30px;
+	padding: 7px 0 7px 13px;
+	box-sizing: border-box;
+}
+
+.cBread_r_text>i {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #A98F83;
+}
+
+.cBread_r>a {
+	font-size: 14px;
+	float: left;
+	margin: 0 35px 0 17px;
+	color: #666666;
+}
+
+.cBread_r>a:hover {
+	color: #DBC7BA;
+}
+
+/* -------------主体导航栏--------------- */
+.cot_nav {
+	/* list-style: none; */
+	position: relative;
+	height: 34px;
+	margin-bottom: 10px;
+}
+
+.cot_nav>li {
+	float: left;
+	margin: 0 3px 0 15px;
+	height: 100%;
+}
+
+.cot_nav>li:hover {
+	color: #DBC7BA;
+	cursor: pointer;
+}
+
+.cot_nav_same {
+	position: absolute;
+	background-color: white;
+	top: 34px;
+	right: 0;
+	width: 1348px;
+	min-height: 215px;
+	font-size: 0;
+	color: #666;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	background: #fff;
+	padding-left: 12px;
+	padding-top: 36px;
+	display: none;
+}
+
+.cot_nav_same a {
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	display: inline-block;
+	cursor: pointer;
+	color: #666;
+}
+
+.cot_nav_same a:hover {
+	color: #9b745c;
+}
+
+.cot_nav>li:hover .cot_nav_same {
+	display: block;
+}
+
+.priceSearch {
+	margin-top: 40px;
+}
+
+.priceSearch input {
+	width: 174px;
+	padding: 9px 12px;
+	font-size: 14px;
+	border: none;
+	background: #f7f7f7;
+}
+
+.priceSearch span {
+	font-size: 14px;
+	color: #999;
+	margin: 0 12px;
+}
+
+.priceSearch button {
+	width: 90px;
+	height: 31px;
+	margin-left: 10px;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	line-height: 31px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: #a98f83;
+}
+
+.priceSearch button:hover {
+	background-color: #8b766c;
+}
+
+/* -----------------------钻戒展示部分-------------------------- */
+.cot_cort {
+	width: 1360px;
+	height: auto;
+	background-color: rgba(244, 242, 243, 1);
+	padding: 0 0 28px;
+}
+
+/* ul */
+.cCort_thing {
+	width: 1360px;
+	height: 2060px;
+}
+
+.cCort_thing>li {
+	width: 420px;
+	height: 490px;
+	background-color: white;
+	font-size: 14px;
+	color: #888888;
+	margin: 25px 0 0 25px;
+	float: left;
+}
+
+.cCort_thing>li>a {
+	display: inline-block;
+	width: 320px;
+	height: 320px;
+	margin: 0 50px;
+}
+
+.cCort_thing>li>a>img {
+	width: 320px;
+	height: 320px;
+	margin: 0 auto;
+}
+
+.cCort_thing_cort {
+	text-align: center;
+}
+
+.cCort_thing_cort>p:nth-of-type(1) {
+	color: #8B766C;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 18px;
+}
+
+.cCort_thing_cort>p:nth-of-type(2) {
+	color: #333;
+	font-size: 16px;
+	margin: 0 0 6px;
+	line-height: 26px;
+}
+
+.cCort_thing_button {
+	font-size: 0;
+}
+
+.cCort_thing_button>span {
+	width: 117px;
+	height: 29px;
+	display: inline-block;
+	color: #A98F83;
+	font-size: 13px;
+	line-height: 25px;
+	background-color: #fff;
+	border: 1px solid #A98F83;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.cCort_thing_button>span:hover {
+	color: rgb(139, 118, 108);
+}
+
+.cCort_thing_button>a>span {
+	width: 117px;
+	height: 29px;
+	display: inline-block;
+	color: #fff;
+	font-size: 13px;
+	line-height: 25px;
+	background-color: #A98F83;
+	border: 1px solid #A98F83;
+	box-sizing: border-box;
+}
+
+.cCort_thing_button>a>span:hover {
+	background-color: rgb(139, 118, 108);
+}
+
+/* -------换页-------- */
+.cCort_fpagin {
+	height: 18px;
+	margin: 32px 0 10px;
+	color: #999;
+	text-align: center;
+}
+
+.cCort_fpagin>span {
+	margin: 0 24px;
+}
+
+.cCort_fpagin>a {
+	padding: 4px 8px;
+	color: #999;
+}
+
+/* button */
+.bottom {
+	padding: 76px 0px 0px;
+}

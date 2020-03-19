@@ -1,0 +1,253 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,html {
+	margin: 0;
+	padding: 0;
+}
+
+.warp {
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top {
+	width: 100%;
+	height: 44px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: fixed;
+	z-index: 999;
+}
+
+.top div {
+	width: 100px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 18px;
+	color: #9b745c;
+}
+
+.top div i {
+	font-size: 26px;
+}
+
+.top div img {
+	max-height: 35px;
+	margin-top: 5px;
+}
+
+.bnner {
+	width: 100%;
+	height: 300px;
+}
+
+.bnner img {
+	width: 100%;
+	height: auto;
+
+}
+
+.bnner01 {
+	width: 95%;
+	height: 204px;
+	background-color: #FFF;
+	margin: 10px auto;
+	position: relative;
+	text-align: center;
+
+}
+
+.bnner01 img {
+	display: block;
+	height: 7.54393rem;
+	margin: 20px auto;
+	position: absolute;
+	top: 10px;
+	left: 25%;
+}
+
+.bnner01 a {
+	display: inline-block;
+	width: 4.58365rem;
+	height: 1.43239rem;
+	line-height: 1.43239rem;
+	border: 1px solid #a57a68;
+	color: #a57a68;
+	position: absolute;
+	top: 160px;
+	left: 40%;
+}
+
+.bnner02 {
+	width: 95%;
+	height: 145px;
+	margin: 0 auto;
+}
+
+.bnner02 img {
+	width: 100%;
+}
+
+.yuyue {
+	width: 95%;
+	height: 130px;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	color: #222;
+	font-size: 18px;
+	padding: 22px 0 0;
+}
+
+.yuyue p:nth-of-type(2) {
+	font-size: 12px;
+	color: #222;
+	margin: 5px 0 5px;
+}
+
+.yuyue a {
+	display: inline-block;
+	width: 4.58365rem;
+	height: 1.43239rem;
+	line-height: 1.43239rem;
+	border: 1px solid #a57a68;
+	color: #a57a68;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.bnner03 {
+	width: 100%;
+	height: 412px;
+	margin: 3% 0;
+	position: relative;
+}
+
+.bnner03 img {
+	width: 100%;
+}
+
+.xl {
+	width: 95%;
+	height: 185px;
+	position: absolute;
+	top: 55%;
+	left: 2.5%;
+}
+
+.xl img {
+	float: left;
+	width: 118px;
+	height: 100%;
+}
+
+.bnner04 {
+	width: 100%;
+	height: 170px;
+	margin: 10px 0;
+}
+
+.bnner04 img {
+	width: 100%;
+}
+.tansuo{
+	width: 100%;
+	height: 718px;
+	overflow: hidden;
+	
+}
+.tansuo .tansuo01{
+	width: 95%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 30px  auto;
+	line-height:50px ;
+	color: #222222;
+	font-size: .81169rem;	
+}
+.tansuo01 div{
+	width: 100px;
+	height: 1px;
+}
+.tansuo_bnner{
+	width:95%;
+	height: 385px;
+	margin: 0 auto;
+}
+.tansuo_bnner img{
+	width: 100%;
+	height: 100%;
+}
+.tuijian{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+.tuijian_store{
+	width: 95%;
+	height: 177px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	.tuijian_store div{
+		width: 170px;
+		height: 177px;
+		text-align: center;
+		color: #222;
+		font-size: .66845rem;
+	}
+	.tuijian_store img{
+		width: 100%;
+	}
+	.gongsi{
+		width: 100%;
+		height: 130px;
+		text-align: center;
+		line-height: 60px;
+		color: #CCCCCC;
+		font-size: .52521rem;
+	}
+	.btn{
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: white;
+		border-top: 1px solid #CCCCCC;
+		padding: 10px 0;
+		
+	}
+	.btn div{
+		width: 75px;
+		height: 50px;
+
+		text-align: center;
+		font-size: 16px;
+		color: #7f7f7f;
+	}
+	.btn div img{
+		width: 1.14591rem;
+		height: 1.14591rem;
+	}

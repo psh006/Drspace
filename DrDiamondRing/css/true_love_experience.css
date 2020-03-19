@@ -1,0 +1,291 @@
+.nav ul{
+	border-bottom: 1px solid #333;
+}
+.label{
+	margin: 0 auto;
+	width:1360px;
+	height:70px;
+	line-height: 70px;
+	font-size: 13px;
+}
+.label a{
+	padding-left: 6px;
+}
+.label span{
+	padding-left: 6px;
+}
+/* banner */
+.banner{
+	width:1360px;
+	height: 540px;
+	margin:0 auto;
+	position: relative;
+	z-index:-9 ;
+}
+.ban_li{
+	position: relative;
+	z-index: -1;
+	opacity: 1;
+}
+.ban_li li{
+	position: absolute;
+}
+.ban_li li:nth-of-type(2){
+	animation: mov1 8s linear infinite ;
+}
+
+.ban_li li:nth-of-type(1){
+	animation: mov1 8s linear infinite ;
+	animation-delay: 4s;
+}
+@-webkit-keyframes mov1{
+0%{
+	opacity: 1;
+}
+40%{
+	opacity: 1;
+}
+60%{
+	opacity: 0;
+}
+90%{
+	opacity: 0;
+}
+100%{
+	opacity: 1;
+}
+}
+/* ban_select */
+.ban_select{
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+	margin-left:-249px;
+	font-size: 0;
+}
+.ban_select li{
+	width:249px;
+	height:28px;
+	line-height: 30px;
+	display: inline-block;
+	text-align: center;
+}
+.ban_select li:nth-of-type(1){
+	background: #000;
+	opacity: .2;
+	border-right: 1px solid #fff;
+}
+.ban_select li:nth-of-type(2){
+	background: #444;
+	opacity: .7;
+}
+.ban_select li a{
+	width:100%;
+	font-size: 14px;
+	color: #fff;
+}
+/* service */
+.service{
+	width:1360px;
+	height:110px;
+	margin:50px auto 46px;
+	clear: both;
+}
+.try{
+	float: left;
+	width:167px;
+	height:88px;
+	padding-left: 89px;
+	margin-left: 16px;
+	margin-top: 16px;
+	background: url(../img/true_love_experience_img/serverIcon.png) no-repeat;
+	background-position: 25px 24px;
+}
+.try h3{
+	line-height: 16px;
+	font-size: 16px;
+	color: #505050;
+	margin-top: 22px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.try p{
+	font-size: 13px;
+    line-height: 20px;
+    color: #a98f83;
+}
+.t_second{
+	background-position: 25px -124px;;
+}
+.res{
+	height:110px;
+	width:251px;
+	text-align: center;
+	background: #b89983;
+	float: left;
+}
+
+.res h3{
+	font-size: 21px;
+	color: #fff;
+	height:26px;
+	padding-top: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.res_hr{
+	height:1px;
+	width: 55px;
+	margin: 8px auto 4px;
+    border-bottom: 1px solid #fff;
+}
+.res p{
+	color: #fff;
+	height:28px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.t_four{
+	background-position: 25px -258px;
+}
+.t_five{
+	background-position:25px -383px;
+}
+.city_box{
+	height:70px;
+	width:1360px;
+	padding: 0 108px;
+    background: #f7f7f7;
+	margin:0 auto;
+	clear: both;
+	box-sizing: border-box;
+}
+.c_city{
+	height:70px;
+	float: left;
+	line-height: 70px;
+}
+.c_city span{
+    font-size: 14px;
+    color: #666;
+}
+.c_city a{
+	font-size: 14px;
+	color: #b89983;
+    margin-right: 18px;
+}
+.c_search{
+	height:70px;
+	line-height: 70px;
+	float: right;
+}
+.c_city .c_color{
+	color:#999;
+}
+.c_search input{
+	border: 1px solid #e6e6e6;
+    padding: 5px 0 5px 8px;
+    width: 300px;
+    border-radius: 3px;
+}
+.c_search a{
+	height:22px;
+	padding:2px 20px;
+	font-size: 14px;
+	color: #fff;
+	background: #a98f83;
+    border-radius: 3px;
+	vertical-align: middle;
+}
+/* store */
+.store{
+	width: 1360px;
+	margin: 44px auto 0;
+	box-sizing: border-box;
+	padding: 56px 108px 50px;
+	background:#f7f7f7;
+}
+.bali{
+	margin-bottom: 72px;
+	text-align: center;
+}
+.bali_txt{
+	background: url(../img/true_love_experience_img/titleLine.png) no-repeat center bottom;
+	font-size: 34px;
+    color: #757575;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+}
+.store_ul{
+	margin-left: -20px;
+	overflow:auto;
+}
+.store_ul li{
+	float: left;
+    width: 368px;
+    height: 510px;
+    margin-left: 20px;
+	background: #fff;
+	margin-bottom: 18px;
+}
+.store_ul li a img{
+	height:225px;
+	width: 341px;
+    border: 13px solid #fff;
+}
+.store_ul li h4{
+	font-size: 20px;
+	color: #8b766c;
+	height: 34px;
+	font-weight: 400;
+    line-height: 34px;
+}
+.ads{
+	margin:8px auto 20px;
+}
+.ads a{
+	font-size: 14px;
+	color: #757575;
+}
+.showMapBtn{
+	width: 16px;
+    height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4px;
+	background: url(../img/true_love_experience_img/smallAdress.png) no-repeat;
+	
+}
+.shop_time{
+	background: url(../img/true_love_experience_img/icon_time.png) no-repeat;
+	padding-left: 24px;
+	line-height: 26px;
+}
+.store p{
+	    color: #757575;
+        font-size: 14px;
+	    margin: 0 auto 20px;
+		line-height: 26px;
+}
+.shop_phone{
+	background: url(../img/true_love_experience_img/icon_phone.png) no-repeat;
+	padding-left: 16px;
+	vertical-align: text-top;
+}
+.beijing{
+	margin:8px 31px 20px;
+}
+.store_ul li a img:hover{
+	animation: mov03 1s linear;
+}
+@-webkit-keyframes mov03{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: .5;
+	}
+	100%{
+		opacity: 1;
+	}
+}

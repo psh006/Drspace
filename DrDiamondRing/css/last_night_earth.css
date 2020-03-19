@@ -1,0 +1,134 @@
+*{margin: 0;padding: 0;}
+.last_earth_banner{
+	width: 100%px;
+	height: 1044px;
+	background-image: url(//res.darryring.com/activity/drEarthLastNight/temp/part01_banner.jpg);
+}
+.last_earth_logo{
+	width: 904px;
+	height: 408px;
+	margin:80px auto;
+}
+.last_earth_vodio{
+	width: 1200px;
+	height: 674px;
+	margin: auto;
+}
+.shuoming{
+	width: 1200px;
+	height: 429px;
+	margin:90px auto;
+	text-align: center;
+}
+.shuoming p{
+	line-height: 54px;
+	text-align: center;
+	color: #000000;
+	font-size: 26px;
+	letter-spacing: 1.7px;
+}
+.last_earth_banner_01{
+	width: 1200px;
+	height: 801px;
+	background-color: darkred;
+	margin:80px auto;
+	
+}
+.last_earth_banner_02{
+	width: 1200px;
+	height: 224px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.last_earth_banner_02 div:nth-child(1){
+	width: 303px;
+	height: 202px;
+}
+.last_earth_banner_02 div{
+	width: 276px;
+	height: 184px;
+}
+.last_earth_banner_02 div img{
+	width: 100%;
+}
+.last_earth_banner_03{
+	width: 1200px;
+	height: 104px;
+	margin:30px auto;
+	text-align: center;
+	font-size: 36px;
+	color: #000000;
+}
+.last_earth_banner_04{
+	width: 1200px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	
+}
+.last_earth_banner_04>div{
+	width: 320px;
+	height: 668px;
+}
+.last_earth_banner_04>div:nth-of-type(2){
+	width: 383px;
+	margin: 120px 0;
+}
+
+.last_earth_banner_04>div:nth-of-type(2) img{
+	margin-top: 120px;
+}
+.last_earth_banner_04>div img{
+	width: 100%;
+	height: auto;
+	box-shadow:6px 6px 8px -5px rgba(0,0,0,.44) ;
+}
+.last_earth_banner_04>div>div{
+	width: 100%;
+	height: 38px;
+	background-color: #CCCCCC;
+	text-align: center;
+	line-height: 38px;
+	margin: 20px 0;
+}
+.last_earth_banner_05{
+	width: 1200px;
+	height: 888px;
+	margin:30px auto  120px ;
+	text-align: center;
+}
+.last_earth_banner_05 h3{
+	font-size: 25px;
+	color: #000000;
+	margin: 30px 0;
+}
+.last_earth_banner_05 p{
+	font-size: 18px;
+	color: #3e3a39;
+	height: 38px;
+}
+.last_earth_banner_05 h4{
+	font-size: 25px;
+	color: #3e3a39;
+	margin: 30px 0;
+}
+.last_earth_banner_05 p a{
+	display: inline-block;
+	width: 126px;
+	height: 40px;
+	text-align: center;
+	line-height: 38px;
+	background-color: #ab9b85;
+}
+.last_earth_banner_05 img{
+	margin: 50px;
+}
+.last_earth_banner_05 .dd{
+	color: rgb(62, 58, 57);
+	font-size: 24px;
+	font-family: "Adobe 黑体 Std R";
+	margin-top: -30px;
+}

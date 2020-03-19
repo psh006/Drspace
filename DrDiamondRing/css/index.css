@@ -1,0 +1,382 @@
+.warp {
+	width: 100%;
+	height: 100%;
+}
+
+input {
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.l {
+	width: 584px;
+	height: 1260px;
+	background-image: url(//res.darryring.com/webimg/index/back_l_o.jpg);
+	top: 10px;
+	0;
+	left: 50%;
+	margin-left: -1264px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: fixed;
+	font-size: 100%;
+}
+
+.r {
+	width: 584px;
+	height: 1260px;
+	background-image: url(//res.darryring.com/webimg/index/back_r_o.jpg);
+	left: 50%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-left: 680px;
+	top: 10px;
+	position: fixed;
+}
+
+.banner {
+	width: 1360px;
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+}
+
+.index_banner_01 {
+	width: 1360px;
+	height: 620px;
+	margin: auto;
+	position: relative;
+	z-index: -9;
+	background-image: url(https://static.darryring.com/images/2019-06-05/15597244445cf7819ca6104.jpg);
+	animation: hd 10s ease-in-out infinite;
+}
+
+@keyframes hd {
+	0% {
+		background-image: url(https://static.darryring.com/images/2019-06-05/15597244445cf7819ca6104.jpg);
+	}
+
+	10% {
+		background-image: url(https://static.darryring.com/images/2019-06-19/15609380435d0a063b37508.jpg);
+	}
+
+	50% {
+		background-image: url(https://static.darryring.com/images/2019-06-19/15609380435d0a063b37508.jpg);
+	}
+
+	60% {
+		background-image: url(https://static.darryring.com/images/2019-06-05/15597244445cf7819ca6104.jpg);
+	}
+
+	100% {
+		background-image: url(https://static.darryring.com/images/2019-06-05/15597244445cf7819ca6104.jpg);
+	}
+}
+
+.index_banner_01 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.index_banner_01 .dx {
+	width: 1280px;
+	height: 150px;
+	z-index: 999;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 40%;
+	left: 3%;
+	display: none;
+}
+
+.index_banner_01:hover .dx {
+	display: flex;
+}
+
+.dx span {
+	width: 24px;
+	height: 45px;
+	font-size: 100%;
+	line-height: 45px;
+}
+
+.dx span:hover {
+	background-color: #888;
+}
+
+.dx span i {
+	font-size: 45px;
+	color: white;
+	margin-left: -10px;
+}
+
+.index_banner_02 {
+	width: 1360px;
+	height: 462px;
+	margin: 42px auto;
+	overflow: hidden;
+
+}
+
+.index_banner_02_01 {
+	width: 628px;
+	height: 462px;
+	float: left;
+	background-image: url(https://static.darryring.com/images/2019-02-18/15504818355c6a79abcae4d.jpg);
+	display: flex;
+	align-items: center;
+
+}
+
+.index_banner_02_01 div {
+	width: 80px;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	margin: auto;
+	line-height: 80px;
+	/* box-shadow:3px 3px 3px white; */
+}
+
+.index_banner_02_01 div i {
+	font-size: 36px;
+	text-align: center;
+	margin-left: 25px;
+	color: #83666e;
+}
+
+.index_banner_02_02 {
+	width: 732px;
+	height: 462px;
+	background-color: #f5f1ee;
+	float: right;
+}
+
+.index_banner_02_02 ul {
+	width: 100%;
+	height: 100%;
+
+	top: 0;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.index_banner_02_02 ul li {
+	text-align: center;
+}
+
+.index_banner_02_02 ul li:nth-of-type(1) {
+	margin: 30px 0;
+}
+
+.index_banner_02_02 ul li:nth-of-type(2) {
+	font-size: 28px;
+	color: #493428;
+}
+
+.index_banner_02_02 ul li:nth-of-type(2) p:nth-of-type(1) {
+	margin-top: 10px;
+}
+
+input::-webkit-input-placeholder {
+	color: #d7d7d7;
+	font-size: 16px;
+}
+
+
+.index_banner_02_02 ul li:nth-of-type(3) {
+	width: 280px;
+	height: 64px;
+	background-color: #00FFFF;
+	margin: 15px 0;
+}
+
+.index_banner_02_02 ul li:nth-of-type(3) input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	text-align: center;
+	background-color: #8b766c;
+	padding: 15px 0 0;
+}
+
+.index_banner_03 {
+	width: 1360px;
+	height: 984px;
+	margin: auto;
+	overflow: hidden;
+	font-size: 18px;
+	color: #333;
+}
+
+.index_banner_03_01 {
+	width: 694px;
+	height: 984px;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	
+}
+.index_banner_03_01 div{
+	position: relative;
+}
+.index_banner_03_01 div span{
+	position: absolute;
+	top: 80%;
+	left: 10%;
+}
+.index_banner_03_01 div:nth-of-type(2) span{
+	position: absolute;
+	top: 80%;
+	left: 80%;
+}
+.index_banner_03 img {
+	position: relative;
+	transition: transform 1s;
+}
+
+.index_banner_03 img:hover {
+	transform: scale(1.1);
+}
+
+.index_banner_03_01 div {
+	width: 694px;
+	height: 622px;
+	overflow: hidden;
+}
+
+.index_banner_03_01 div:nth-of-type(2) {
+	width: 694px;
+	height: 330px;
+}
+
+.index_banner_03_02 {
+	width: 650px;
+	height: 984px;
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.index_banner_03_02 div {
+	width: 694px;
+	height: 387px;
+	overflow: hidden;
+	position: relative;
+}
+.index_banner_03_02 div span{
+	position: absolute;
+	top: 89%;
+	left: 80%;
+}
+
+.index_banner_03_02 div:nth-of-type(2) {
+	width: 694px;
+	height: 567px;
+
+}
+/* 板块四 */
+
+.index_banner_04 {
+	width: 1360px;
+	height: 500px;
+	margin: 42px auto;
+	overflow: hidden;
+}
+
+.index_banner_04_01 {
+	width: 809px;
+	height: 500px;
+	float: left;
+}
+
+.index_banner_04_02 {
+	width: 550px;
+	height: 500px;
+	background-color: #ded8d2;
+	float: right;
+	text-align: center;
+	
+}
+
+.index_banner_04_02 img {
+	margin: 35px 0;
+}
+
+.index_banner_04_02 div:nth-of-type(1){
+	width: 364px;
+	height: 42px;
+	background-color: #493428;
+	margin: auto;
+	color: white;
+	font-size: 14px;
+	line-height: 42px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.index_banner_04_02 div input {
+	width: 180px;
+	height: 31px;
+	margin-top: 5px;
+	background-color: #493428;
+	border: none;
+}
+.index_banner_04_02 div i{
+	color: white;
+	font-size: 16px;
+}
+.index_banner_04_02 div a{
+	width: 360px;
+	height: 44px;
+	background-color: #eee8e2;
+	display: inline-block;
+	color: #8b766c;
+	margin: 30px 0;
+	line-height: 44px;
+}
+
+.index_banner_04_02 div a:hover{
+	background-color:#9b745c ;
+	color: white;
+}
+.index_banner_04_02 div span{
+	margin: 0 10px;
+}
+/* 板块五 */
+.index_banner_05{
+	width: 1360px;
+	height: 396px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	}
+	.index_banner_05 div{
+		width: 396px;
+		height: 396px;
+		position: relative;
+	}
+	.index_banner_05 div span{
+		position: absolute;
+		z-index: 99px;
+		left: 50%;
+		top: 50%;
+		color: #FFFFFF;
+		font-size: 18px;
+		
+	}
+	.index_banner_05 div:nth-of-type(2){
+		width: 530px;
+	}

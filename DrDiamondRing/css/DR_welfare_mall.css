@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.welfare_banner {
+	width: 100%;
+	height: 58px;
+	background-color: #797979;
+	position: fixed;
+	top: 0;
+}
+
+.welfare_banner_01 {
+	width: 1000px;
+	height: 58px;
+	margin: auto;
+}
+
+.welfare_banner_01 div {
+	width: 312px;
+	height: 58px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	line-height: 58px;
+}
+
+.welfare_banner_01 div a {
+	color: white;
+	text-decoration: none;
+}
+
+.welfare_banner_01 div a:hover {
+	color: #dbc7ba;
+}
+
+.welfare_banner_01 .welfare_banner_01_02 {
+	width: 264px;
+	float: right;
+}
+
+.welfare_login {
+	width: 1360px;
+	height: 470px;
+	margin: 58px auto;
+	overflow: hidden;
+
+}
+
+.welfare_login .login {
+	width: 600px;
+	height: 430px;
+	float: right;
+	background-image: url(../img/DR_welfare_mall/border1.png);
+	margin-top: 20px;
+}
+
+.welfare_login .login p:nth-of-type(1) {
+	margin: 164px 0 22px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.welfare_login .login p:nth-of-type(1) a {
+	color: #2A2A2A;
+}
+
+.welfare_login .login p {
+	font-size: 14px;
+	color: #555;
+	text-align: center;
+}
+
+.welfare_login .login_jm {
+	width: 520px;
+	height: 400px;
+	background-color: #00FFFF;
+	margin: auto;
+	text-align: center;
+	position: fixed;
+	top: 20%;
+	left: 40%;
+	z-index: 999;
+	display: none;
+}
+
+.love_sharing_01 {
+	width: 1360px;
+	height: 340px;
+	margin: 90px auto;
+}
+
+.huiyuan {
+	height: 24px;
+	line-height: 24px;
+	margin: auto;
+	font-size: 24px;
+	color: #2A2A2A;
+}
+
+.love_sharing {
+	width: 100%;
+	height: 660px;
+	background-color: #f6efef;
+	overflow: hidden;
+	padding: 0 0 30px;
+	border-bottom: solid 1px black;
+}
+
+.love_sharing_01 .tp {
+	width: 1360px;
+	height: 456px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto;
+}
+
+.love_sharing_01 .tp div {
+	width: 316px;
+	height: 456px;
+	background-color: white;
+}
+
+.love_sharing_01 .tp>div:hover {
+	outline: 3px solid #c57d5c;
+}
+
+.love_sharing_01 .tp div img {
+	max-width: 316px;
+}
+
+.love_sharing_01 .tp div>div {
+	width: 316px;
+	height: 101px;
+	text-align: center;
+}
+
+.love_sharing_01 .tp div>div a {
+	width: 161px;
+	height: 32px;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	font-size: 12px;
+	color: #c57d5c;
+	border: 1px solid #c57d5c;
+	border-radius: 4px;
+	margin: 15px 0;
+}
+
+.love_sharing_01 .tp div>div p:nth-of-type(1) {
+	font-size: 18px;
+	color: #2a2a2a;
+}
+
+.love_sharing_01 .tp div>div p:nth-of-type(2) {
+	font-size: 14px;
+	color: #666;
+	margin: 5px 0;
+}
+
+.bottom_01 {
+	width: 500px;
+	height: 16px;
+	margin: auto;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom_01 a {
+	color: #888;
+	font-size: 12px;
+}
+
+.bottom_02 {
+	width: 100%;
+	height: 96px;
+	background-color: #797979;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.bottom_02>div {
+	height: 40px;
+	margin: auto;
+}
+
+.bottom_02 p {
+	margin: 5px 0;
+	font-size: 12px;
+	color: #c9c7c7;
+
+}

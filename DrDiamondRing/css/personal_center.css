@@ -1,0 +1,207 @@
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+}
+input{
+	outline: none;
+}
+.personal_banner{
+	width: 1360px;
+	height: 82px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.personal_logo{
+	width: 70px;
+	height: 62px;
+}
+.personal_logo img{
+	width: 100%;
+}
+.personal_nav{
+	width: 310px;
+	height: 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.personal_nav div:nth-of-type(1){
+	width: 88px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.personal_nav div:nth-of-type(1) a{
+	color: white;
+}
+.personal_nav a{
+	color: #8d8d8d;
+	font-size: 12px;
+}
+.personal_banner02{
+	width: 1360px;
+	height: 565px;
+	margin: 0 auto 120px;
+	background-image: url(https://res.darryring.com/webimg/passport/temp/login_bg.jpg);
+    position: relative;
+}
+.personal_login{
+	width: 312px;
+	height: 382px;
+	position: absolute;
+	left:70%;
+	top: 20%;
+	background-color: white;
+	box-shadow:0 0 8px #CCCCCC ;
+	text-align: center;
+}
+.personal_login h3{
+	font-size: 18x;
+	color: #9b745c;
+	margin: 10px 0;
+	display: inline-block;
+}
+.phone{
+	width: 254px;
+	height: 40px;
+	text-align: center;
+	border: solid 1px #CCCCCC;
+	margin: auto;
+	/* background-color: red; */
+	border-radius: 4px;
+	
+}
+.phone input{
+	width: 214px;
+	height: 40px;
+	border: none;
+	font-size: 10px;
+}
+.phone i{
+	color: #CCCCCC;
+}
+
+
+.yanzhengma  a{
+	width: 105px;
+	height: 40px;
+	display: inline-block;
+	background: #f5f5f5;
+	border: none;
+	border-radius: 4px;
+	font-size: 12px;
+	color: #9b745c;
+	float: right;
+	text-align: center;
+	line-height: 40px;
+}
+.yanzhengma{
+	width: 254px;
+	height: 40px;
+	text-align: center;
+	margin:10px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.yanzhengma div{
+	width: 140px;
+	height: 40px;
+border: solid 1px #CCCCCC;
+	border-radius: 4px;	
+}
+.yanzhengma i{
+	color: #CCCCCC;
+}
+.yanzhengma  input{
+	
+	width: 100px;
+	height: 40px;
+	font-size: 10px;
+	border: none;
+}
+.dl a{
+	text-decoration: underline;
+	font-size: 14px;
+	color: #9b745c !important;
+}
+.ty{
+	font-size: 12px;
+		margin-top: 15px;
+		color: #888;
+		text-align: center;
+}
+.ty a{
+	color: #9b745c !important;
+
+}
+.login_a{
+	width: 248px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border:  1px solid #a88f82;
+	display: inline-block;
+	margin-top: 15px;
+	color: #8b766c;
+	font-size: 14px;
+}
+.login_a:hover{
+	background: #a88f82;
+	color: white;
+}
+.zh{
+	width: 310px;
+	height: 40px;
+	margin: 30px auto 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+}
+.zh div{
+	width: 80px;
+	height: 1px;
+	background:#CCCCCC;
+}
+.btn_login{
+	width: 150px;
+	height: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn_login a{
+	width: 21px;
+	height: 16px;
+	background-image: url(//res.darryring.com/webimg/passport/ico-otherLogin.png);
+	display: inline-block;
+}
+.btn_login a:nth-of-type(2){
+background-position: -42px 0;
+}
+.btn_login a:nth-of-type(3){
+background-position: -87px 0;
+}
+.btn_login a:nth-of-type(4){
+    background-position: -130px 0;
+}
+.btn_login a:hover{
+	    background-position: 0 -27px;
+}
+.btn_login a:nth-of-type(2):hover{
+background-position: -42px -27px;
+}
+.btn_login a:nth-of-type(3):hover{
+background-position: -87px -27px;
+}
+.btn_login a:nth-of-type(4):hover{
+    background-position: -130px -27px;
+}

@@ -1,0 +1,645 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+input {
+	border: none;
+	background: none;
+	outline: none;
+	/* 取消选中时蓝色选框 */
+}
+
+/* 清除浮动 */
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* 头部导航栏 */
+.nav ul li:nth-of-type(1) a {
+	color: #333;
+}
+
+.nav ul li:nth-of-type(2) a {
+	color: #9b745c;
+}
+
+
+/* -------------------------------------------- */
+.content {
+	width: 1360px;
+	height: auto;
+	margin: 0 auto;
+	border-top: 1px solid #333;
+}
+
+/* ----------- */
+.cot_bread {
+	height: 70px;
+	margin-left: 9px;
+	line-height: 70px;
+	font-size: 13px;
+
+}
+
+.cot_bread>a {
+	font-size: 13px;
+}
+
+.cot_bread>a:hover {
+	color: #9B745C;
+}
+
+/* 钻戒购买规格选择 */
+.cot_ringbuy {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* 左侧钻戒展示 */
+.cRingbuy_l {
+	position: relative;
+	width: 460px;
+	float: left;
+	height: auto;
+}
+
+.cRingbuy_lTop>img {
+	width: 58px;
+	height: 58px;
+	box-sizing: border-box;
+	margin-left: 20px;
+	margin-top: 480px;
+}
+
+.cRingbuy_lTop>img:hover {
+	/* 	box-shadow: 0px 0px 0px 1px rgba(255,0,0,0.8); */
+	border: 1px solid red;
+}
+
+.cRingbuy_lTop>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 458px;
+	height: 458px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5);
+	background-image: url(../img/marriage_ring_details_img/1518086562.jpg);
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.cRingbuy_lTop>img:nth-of-type(1):hover~.cRingbuy_lTop_show {
+	background-image: url(../img/marriage_ring_details_img/1518086562.jpg);
+}
+
+.cRingbuy_lTop>img:nth-of-type(2):hover~.cRingbuy_lTop_show {
+	background-image: url(../img/marriage_ring_details_img/1518086568.jpg);
+}
+
+.cRingbuy_lTop>img:nth-of-type(3):hover~.cRingbuy_lTop_show {
+	background-image: url(../img/marriage_ring_details_img/1518086572.jpg);
+}
+
+.cRingbuy_lTop>img:nth-of-type(4):hover~.cRingbuy_lTop_show {
+	background-image: url(../img/marriage_ring_details_img/1518086577.jpg);
+}
+
+/* ----------左下 分享栏---------- */
+.cRingbuy_lDown {
+	margin: 20px 0;
+	font-size: 12px;
+	background-color: #fff;
+	line-height: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #7f7f7f;
+}
+
+.cRingbuy_lDown>a {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-image: url(../img/marriage_ring_details_img/ico-shares.png);
+	margin-left: 2px;
+}
+
+.cRingbuy_lDown>a:nth-of-type(1) {
+	background-position: 0 0;
+}
+
+.cRingbuy_lDown>a:nth-of-type(2) {
+	background-position: -31px 0;
+}
+
+.cRingbuy_lDown>a:nth-of-type(3) {
+	background-position: -62px 0;
+}
+
+.cRingbuy_lDown>a:nth-of-type(4) {
+	background-position: -92px 0;
+}
+
+.cRingbuy_lDown>a:nth-of-type(5) {
+	background-position: -124px 0;
+}
+
+.cRingbuy_lDown>a:nth-of-type(1):hover {
+	background-position: 0 -68px;
+}
+
+.cRingbuy_lDown>a:nth-of-type(2):hover {
+	background-position: -31px -68px;
+}
+
+.cRingbuy_lDown>a:nth-of-type(3):hover {
+	background-position: -62px -68px;
+}
+
+.cRingbuy_lDown>a:nth-of-type(4):hover {
+	background-position: -92px -68px;
+}
+
+.cRingbuy_lDown>a:nth-of-type(5):hover {
+	background-position: -124px -68px;
+}
+
+/* 右侧规格样式选择 */
+.cRingbuy_r {
+	width: 520px;
+	margin-left: 20px;
+	color: #888888;
+	float: left;
+}
+
+.cRingbuy_r>h2 {
+	font-size: 24px;
+	font-weight: 200px;
+	color: #000000;
+	margin: 0 0 8px;
+}
+
+/* -------------- */
+.cRingbuyR_price {
+	margin: 14px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cRingbuyR_price>span {
+	color: #8B766C;
+	font-size: 24px;
+
+}
+
+.cRingbuyR_price>a {
+	color: #999999;
+	font-size: 12px;
+
+}
+
+/* --------- */
+.cRingbuyR_sale {
+	background: #f8f8f8;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+	padding: 7px 0;
+}
+
+.cRingbuyR_sale>li {
+	width: 170px;
+
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	border-left: 1px dashed #ddd;
+}
+
+.cRingbuyR_sale>li:nth-of-type(1) {
+	border-left: none;
+}
+
+.cRingbuyR_sale>li>a {
+	text-align: center;
+	font-size: 12px;
+	color: #8b766c;
+}
+
+.cRingbuyR_sale>li>span {
+	text-align: center;
+	color: #ffacac;
+}
+
+.cRingbuyR_parameter {
+	margin-top: 20px;
+}
+
+.cRingbuyR_parameter>li {
+	float: left;
+	width: 240px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	color: #888888;
+}
+
+/* 右侧 材质 钻石选择 */
+.cRingbuyR_choose {
+	margin: 10px 0 0;
+	padding: 20px 0 20px 20px;
+	background-color: #F8F8F8;
+	color: #888888;
+	font-size: 12px;
+	font-weight: 100;
+	position: relative;
+}
+/* 二维码 */
+.ewm{
+	position: absolute;
+	bottom: 60px;
+	right: 15px;
+	text-align: center;
+}
+.ewm>img{
+	width: 80px;
+}
+/* ---------戒托材质---------- */
+.cRingbuyR_choose_first {
+	margin: 0 0 14px;
+}
+
+.cRingbuyR_choose_first>span {
+	font-size: 12px;
+	margin: 0 12px 0 0;
+	color: #838383;
+	float: left;
+	line-height: 30px;
+}
+
+.cRingbuyR_choose_first>ul {
+	float: left;
+}
+/* 戒托材质选择框 */
+.first_chooseit {
+	float: left;
+	width: 98px;
+	height: 28px;
+	margin: 0 5px 0 0;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border: 1px solid #888888;
+	text-align: center;
+	line-height: 28px;
+	color: #666666;
+	cursor: pointer;
+}
+.first_chooseit:hover{
+	width: 96px;
+	height: 26px;
+	line-height: 26px;
+	border: 2px solid #907c73;
+}
+.first_chooseit:nth-of-type(1) {
+	width: 96px;
+	height: 26px;
+	line-height: 26px;
+	border: 2px solid #907c73;
+	position: relative;
+}
+.first_chooseit:nth-of-type(1)>img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.cRingbuyR_choose_first>p {
+	width: 160px;
+	color: #afafb0;
+	font-size: 12px;
+
+}
+/* --------搭配主钻--------- */
+.cRingbuyR_choose_sec {
+	margin: 0 0 14px;
+}
+
+.cRingbuyR_choose_sec>span {
+	font-size: 12px;
+	margin: 0 12px 0 0;
+	color: #838383;
+	float: left;
+	line-height: 30px;
+}
+
+.cRingbuyR_choose_sec>div {
+	width: 420px;
+	float: left;
+}
+/* 戒托材质选择框 */
+.sec_chooseit {
+	float: left;
+	width: 98px;
+	height: 28px;
+	margin: 0 5px 6px 0;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border: 1px solid #888888;
+	text-align: center;
+	line-height: 28px;
+	color: #666666;
+	cursor: pointer;
+}
+.sec_chooseit:hover{
+	width: 96px;
+	height: 26px;
+	line-height: 26px;
+	border: 2px solid #907c73;
+}
+.sec_chooseit:nth-of-type(1) {
+	width: 96px;
+	height: 26px;
+	line-height: 26px;
+	border: 2px solid #907c73;
+	position: relative;
+}
+.sec_chooseit:nth-of-type(1)>img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.cRingbuyR_choose_sec>div>p {
+	width: 100px;
+	display: inline-block;
+	color: #afafb0;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+
+.cRingbuyR_choose_thd{
+	margin: 20px 0 5px 0;
+}
+.cRingbuyR_choose_thd>span:nth-of-type(1){
+	font-size: 12px;
+	margin: 0 12px 0 0;
+	color: #838383;
+	line-height: 30px;
+}
+
+.cRingbuyR_choose_thd>select{
+	width: 82px;
+	height: 30px;
+	margin-right: 10px;
+	outline: none;
+}
+.cRingbuyR_choose_thd>a{
+	font-size: 12px;
+	color: #838383;
+	line-height: 30px;
+}
+
+/* --------免费刻字-------- */
+.cRingbuyR_choose_fourth{
+	
+}
+.cRingbuyR_choose_fourth>span{
+	font-size: 12px;
+	margin: 0 12px 0 0;
+	color: #838383;
+	line-height: 30px;
+}
+.cRingbuyR_choose_fourth_top{
+		display: inline-block;
+		line-height: 30px;
+		margin: 0 0 5px 0;
+}
+.cRingbuyR_choose_fourth_top>span{
+		margin: 0 20px 0 0;
+}
+.cRingbuyR_choose_fourth_top>input{
+		margin: 0 0 0 20px;
+		vertical-align: middle;
+}
+/* ------------ */
+.cRingbuyR_choose_fourth_down{
+	margin-left: 65px;
+	margin-bottom: 20px;
+}
+.cRingbuyR_choose_fourth_down>input{
+	border: 1px solid #888888;
+	width: 166px;
+	height: 28px;
+	background-color: white;
+	padding-left: 4px;
+	margin: 0 10px 0 0;
+}
+.cRingbuyR_choose_fourth_down>span{
+	border: 1px solid #888888;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin: 0 10px 0 0;
+	line-height: 28px;
+	text-align: center;
+	color: #888888;
+	cursor: pointer;
+}
+.cRingbuyR_choose_fourth_down>span:nth-of-type(3){
+	border: 1px solid #907C73;
+	display: inline-block;
+	width: 66px;
+	height: 28px;
+	margin: 0 10px 0 0;
+	line-height: 28px;
+	text-align: center;
+	color: #907c73;
+	
+}
+.cRingbuyR_choose_fourth_down>span:nth-of-type(3):hover{
+	border: 1px solid #907C73;
+	background-color: #907C73;
+	color: #FFFFFF;
+	
+}
+
+/* ----------------右侧 购买按钮--------------- */
+.cRingbuyR_button{
+	height: 40px;
+	margin: 30px 0;
+}
+.cRingbuyR_button>a{
+	width: 180px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+}
+.cRingbuyR_button>a>img{
+	width: 20px;
+	vertical-align: text-bottom;
+}
+.cRingbuyR_button>a:nth-of-type(1){
+	background-color: rgb(169,143,131);
+	color: #FFFFFF;
+	margin: 0 10px 0 20px;
+}
+.cRingbuyR_button>a:nth-of-type(2){
+	outline: 1px solid #907C73;
+	color: #907C73;
+}
+.cRingbuyR_button>a:nth-of-type(1):hover{
+	background-color: rgb(139,118,108);
+	color: #FFFFFF;
+}
+.cRingbuyR_button>a:nth-of-type(2):hover{
+	background-color: rgb(139,118,108);
+	color: #FFFFFF;
+}
+
+.cRingbuy_r>p:nth-of-type(1){
+	padding: 0 0 10px 20px;
+	color: #838383;
+	font-size: 12px;
+	font-weight: 100;
+}
+.cRingbuy_r>p:nth-of-type(1)>span{
+	font-weight:600;
+}
+/* ---------右侧 售后-------------- */
+.cRingbuyR_promise{
+	padding: 14px 0 14px 20px;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+	height: 25px;
+	font-size: 12px;
+	color: #838383;
+	font-weight: 100px;
+}
+.cRingbuyR_promise>span:nth-of-type(1){
+	font-weight: 600;
+	margin-right: 10px;
+}
+.cRingbuyR_promise>span>img{
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.cRingbuyR_promise>a{
+	display: inline-block;
+	    vertical-align: middle;
+	    font-size: 12px;
+	    color: #fff;
+	    background: #d1c1b4;
+	    width: 85px;
+	    height: 24px;
+	    text-align: center;
+	    border-radius: 3px;
+	    margin-left: 60px;
+		line-height: 24px;
+}
+.cRingbuyR_promise>a>img{
+	vertical-align: middle;
+}
+.cRingbuyR_promise>a:hover{
+	background-color: rgb(139,118,108);
+}
+/* --------------------------主体 第二部分 商品详情------------------------ */
+.cot_details{
+	width: 1000px;
+	margin: 80px auto 0;
+	/* height: 3000px; */
+	font-size: 12px;
+}
+.cDetails_tab{
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 40px;
+}
+.cDetails_tab>span{
+	width: 165px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	display: inline-block;
+	border-left: 1px solid #ddd;
+	margin-bottom: 10px;
+	color: #ddd;
+}
+.cDetails_tab>span:nth-of-type(1){
+	width: 165px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	display: inline-block;
+	border-left: 0px;
+	color: #000;
+}
+.cDetails_tab>span:nth-of-type(1)>span{
+	width: 125px;
+	height: 24px;
+	display: inline-block;
+	border-bottom: 2px solid #000;
+}
+
+/* --------------------------- */
+.cDetails_parameter{
+	padding: 0 0 0 126px;
+	margin: 0 0 18px;
+	color: #888888;
+	font-weight: 100;
+}
+.cDetails_parameter>li{
+	width: 290px;
+	float: left;
+	margin: 0 0 8px;
+	line-height: 25px;
+	color: #666;
+}
+.cDetails_parameter>li>span{
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
